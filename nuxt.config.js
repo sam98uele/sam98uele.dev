@@ -20,14 +20,21 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
+        rel: 'stylesheet',
+        type: 'text/css',
+        href: 'https://use.fontawesome.com/releases/v5.0.13/css/all.css',
+      },
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: ['~/plugins/vue-tooltip.js'],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -60,6 +67,9 @@ export default {
         },
       },
     },
+    // icons: {
+    //  iconfont: 'fa4', // 'mdi' || 'mdiSvg' || 'md' || 'fa' || 'fa4' || 'faSvg'
+    // },
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
