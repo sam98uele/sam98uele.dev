@@ -72,6 +72,10 @@ export default {
     // },
   },
 
+  auth: {
+    cookie: false
+  },
+
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
 }
