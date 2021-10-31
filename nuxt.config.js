@@ -10,8 +10,8 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - sam98uele.dev',
-    title: 'sam98uele.dev',
+    titleTemplate: '%s | sam98uele',
+    title: 'Samuele Portanti',
     htmlAttrs: {
       lang: 'en',
     },
