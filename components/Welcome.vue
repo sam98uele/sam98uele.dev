@@ -2,9 +2,24 @@
   <v-row align="center" justify="center">
     <v-col>
       <div>
-        <h1 style="margin-bottom: 5px">sam98uele</h1>
+        <h1 style="margin-bottom: 35px">Samuele Portanti</h1>
 
-        <hr style="margin-top: 10px; margin-bottom: 20px" />
+        <hr style="margin-top: 10px; margin-bottom: 30px" />
+        <ul class="text-left space-lines-10">
+          <li>
+            High School Diploma at Liceo Scientifico opzione Scienze Applicate
+            I.I.S. J. Torriani Cremona (2017)
+          </li>
+          <li>
+            Barcelor Degree in Computer Science and Engineering at Politecnico
+            di Milano (2020)
+          </li>
+          <li>
+            Currently I'm studying Computer Scenze and Engineering at
+            Politecnico di Milano (Artifical Neural Network and Deep Learning)
+          </li>
+        </ul>
+        <hr style="margin-top: 30px; margin-bottom: 40px" />
         <v-tooltip bottom>
           <template #activator="{ on, attrs }">
             <a
@@ -62,11 +77,14 @@
 // }
 </script>
 
-<style>
+<style scoped>
 .social-icon {
   color: white;
 }
 .social-icon-mar {
   margin-right: 10px;
+}
+.space-lines-10 li {
+  margin: 0 0 10px 0;
 }
 </style>
