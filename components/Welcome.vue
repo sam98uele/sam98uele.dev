@@ -51,7 +51,7 @@
         <v-tooltip bottom>
           <template #activator="{ on, attrs }">
             <a
-              href="https://twitter.com/samueleportanti"
+              href="https://twitter.com/sam98uele"
               v-bind="attrs"
               v-on="on"
             >
