@@ -15,8 +15,9 @@
             di Milano (2020)
           </li>
           <li>
-            Currently I'm studying Computer Scenze and Engineering at
-            Politecnico di Milano (Artifical Neural Network and Deep Learning)
+            Currently I'm studying Computer Science and Engineering at
+            Politecnico di Milano (track "Artifical Neural Network and Deep
+            Learning")
           </li>
         </ul>
         <hr style="margin-top: 30px; margin-bottom: 40px" />
@@ -50,11 +51,7 @@
 
         <v-tooltip bottom>
           <template #activator="{ on, attrs }">
-            <a
-              href="https://twitter.com/sam98uele"
-              v-bind="attrs"
-              v-on="on"
-            >
+            <a href="https://twitter.com/sam98uele" v-bind="attrs" v-on="on">
               <i class="social-icon fab fa-twitter-square fa-2x"></i>
             </a>
           </template>
