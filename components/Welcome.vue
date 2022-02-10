@@ -11,12 +11,12 @@
             I.I.S. J. Torriani Cremona (2017)
           </li>
           <li>
-            Barcelor Degree in Computer Science and Engineering at Politecnico
+            Bachelor's degree in Computer Science and Engineering at Politecnico
             di Milano (2020)
           </li>
           <li>
-            Currently I'm studying Computer Science and Engineering at
-            Politecnico di Milano (track "Artifical Neural Network and Deep
+            Currently I am studying Computer Science and Engineering at
+            Politecnico di Milano (track "Artificial Neural Network and Deep
             Learning")
           </li>
         </ul>
