@@ -23,6 +23,9 @@ jobs:
       - name: Install dependencies
         run: npm i
 
+      - name: Install nuxi
+        run: npm i nuxi-edge
+
       - name: Generate
         run: npm run generate
 
